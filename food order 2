@@ -1,0 +1,149 @@
+print("Welcoma to MHZ Fast Food\nHere you can have fries for 50, burger for 200, pizza for 1000, sandwich for 70. ")
+t=int(input("How many types of items you want to have:"))
+if t==1:
+    i=input("press f for fries, b for burger, p for pizza, s fo sandwich : ")
+    if i=='f':
+        n=int(input("Enter number of FRIES you want to have : "))
+        x = n*50
+        print(f"Your total bill is {x}")
+        print("Have a nice day....")
+    elif i=='b':
+         n = int(input("Enter number of BURGERS you want to have : "))
+         x = n * 200
+         print(f"Your total bill is {x}")
+         print("Have a nice day....")
+    elif i == 'p':
+        n = int(input("Enter number of PIZZAS you want to have : "))
+        x = n * 1000
+        print(f"Your total bill is {x}")
+        print("Have a nice day....")
+    elif i=='s':
+         n = int(input("Enter number of SANDWICHES you want to have : "))
+         x = n * 70
+         print(f"Your total bill is {x}")
+         print("Have a nice day....")
+    else:
+        print("This item is not available or you are not following procedure")
+        exit(1)
+elif(t==2):
+    i = input("press f for fries, b for burger, p for pizza, s fo sandwich : ")
+    if i=='f':
+        n=int(input("Enter number of FRIES you want to have : "))
+        x = n*50
+        j = input("b for burger, p for pizza, s fo sandwich : ")
+        if j=='b':
+            n = int(input("Enter number of BURGERS you want to have : "))
+            y=n*200
+            c= x+y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+        elif j == 'p':
+            n = int(input("Enter number of PIZZAS you want to have : "))
+            y = n * 1000
+            c = x + y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+        elif j == 's':
+            n = int(input("Enter number of SANDWICH you want to have : "))
+            y = n * 70
+            c = x + y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+        else:
+            print("This item is not available or you are not following procedure")
+            exit(1)
+    elif i=='b':
+        n=int(input("Enter number of BURGERS you want to have : "))
+        x = n*200
+        j = input("P for pizza, s fo sandwich : ")
+        if j == 'p':
+            n = int(input("Enter number of PIZZAS you want to have : "))
+            y = n * 1000
+            c = x + y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+        elif j == 's':
+            n = int(input("Enter number of SANDWICH you want to have : "))
+            y = n * 70
+            c = x + y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+        else:
+            print("This item is not available or you are not following procedure")
+            exit(1)
+    elif i=='p':
+            n = int(input("Enter number of PIZZAS you want to have : "))
+            x = n * 1000
+            n = int(input("Enter number of SANDWICHES you want to have : "))
+            y = n * 70
+            c = x + y
+            print(f"Your total bill is Rs{c}")
+            print("Have a nice day....")
+    else:
+        print("This item is not available or you are not following procedure")
+        exit(1)
+elif(t==3):
+    i = input("press f for fries, b for burger, p for pizza, s fo sandwich : ")
+    if(i=='f'):
+        n = int(input("Enter number of FRIES you want to have : "))
+        x=n*50
+        j = input("b for burger, p for pizza, s fo sandwich : ")
+        if(j=='b'):
+            n = int(input("Enter number of BURGERS you want to have : "))
+            y=n*200
+            k = input("p for pizza, s fo sandwich : ")
+            if(k=='p'):
+                n = int(input("Enter number of PIZZAS you want to have : "))
+                z=n*1000
+                c=x+y+z
+                print(f"Your total bill is Rs.{c}")
+                print("Have a nice day....")
+            elif(k=='s'):
+                n = int(input("Enter number of SANDWICHES you want to have : "))
+                z = n * 70
+                c=x+y+z
+                print(f"Your total bill is Rs.{c}")
+                print("Have a nice day....")
+            else:
+                print("This item is not available or you are not following procedure")
+                exit(1)
+        elif(j=='p'):
+            n = int(input("Enter number of pizzas you want to have : "))
+            y = n * 1000
+            n = int(input("Enter number of SANDWICHES you want to have : "))
+            z = n * 70
+            c = x + y + z
+            print(f"Your total bill is Rs.{c}")
+            print("Have a nice day....")
+        else:
+            print("This item is not available or you are not following procedure")
+            exit(1)
+
+    elif(i=='b'):
+        n = int(input("Enter number of BURGERS you want to have : "))
+        x = n * 200
+        n = int(input("Enter number of PIZZAS you want to have : "))
+        y = n * 1000
+        n = int(input("Enter number of SANDWICHES you want to have : "))
+        z = n * 70
+        c = x + y + z
+        print(f"Your total bill is Rs.{c}")
+        print("Have a nice day....")
+    else:
+        print("This item is not available or you are not following procedure")
+        exit(1)
+elif(t==4):
+    n=int(input("Enter number of FRIES you want to have : "))
+    x = n * 50
+    n = int(input("Enter number of BURGERS you want to have : "))
+    y = n * 200
+    n = int(input("Enter number of PIZZAS you want to have : "))
+    z = n * 1000
+    n = int(input("Enter number of SANDWICHES you want to have : "))
+    a = n * 70
+    c = x + y + z + a
+    print(f"Your total bill is Rs.{c}")
+    print("Have a nice day....")
+else:
+    print("This option is not available")
+    exit(1)
