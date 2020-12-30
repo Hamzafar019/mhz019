@@ -1,0 +1,20 @@
+print("Welcome to mhz calculator.....")
+username=input("Enter username :")
+password=input("Enter password :")
+if username=="mhz":
+    if password=="mhz":
+        i=int(input("how many times you want the table : "))
+        x=int(input("Number you want for table: "))
+        j=0
+        while( j<=i):
+            print(f"{x} * {j} = {j*x}")
+            j=j+1
+        print("Thanks for choosing me......")
+    else:
+        print("wrong password :(")
+else:
+    if password == "mhz":
+        print("Wrong username  :( ")
+    else:
+        print("wrong username and password :((")
+ 
