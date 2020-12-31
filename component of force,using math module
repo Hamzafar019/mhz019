@@ -1,0 +1,25 @@
+name="xyz"
+password="xyz"
+x=input("Enter name : ")
+if x:
+    y=input("Enter password : ")
+    if y:
+        if x==name and y==password:
+            from math import *
+            f=int(input("Magnitude of force : "))
+            t=int(input("angle of force : "))
+            an=radians(t)
+            fx=f*cos(an)
+            fy=f*sin(an)
+            print(f"x-component of force is {fx}")
+            print(f"y-component of force is {fy}")
+            f=sqrt(pow(fx,2)+pow(fy,2))
+            an=atan(fy/fx)
+            t=degrees(an)
+            print(f"Force was {f} N and angle was {t}")
+        else:
+            print("Wrong name or password or both")
+    else:
+        print("You haven't enterd password")
+else:
+    print("You haven't entered name")
