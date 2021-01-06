@@ -1,0 +1,1893 @@
+special_days={
+1.1:"1st January, World Peace Day",
+2.1:"2nd January, nothing special",
+3.1:"3rd January, nothing special",
+4.1:"4th January, World Braille Day",
+5.1:"5th January, nothing special",
+6.1:"6th January, World War Orphans Day",
+7.1:"7th January, nothing special",
+8.1:"8th January, African National Congress Foundation Day",
+9.1:"9th January, Pravasi Bharatiya Divas NRI Day",
+10.1:"10th January, World Laughter Day",
+11.1:"11th January, Death anniversary of Lal Bahadur Shastri",
+12.1:"12th January, National Youth Day (Birth Day of Swami Vivekanand)",
+13.1:"13th January, nothing special",
+14.1:"14th January, nothing special",
+15.1:"15th January,Army Day",
+16.1:"16th January, nothing special",
+17.1:"17th January, nothing special",
+18.1:"18th January, nothing special",
+19.1:"19th January, nothing special",
+20.1:"20th January, nothing special",
+21.1:"21st January, nothing special",
+22.1:"22nd January, nothing special",
+23.1:"23rd January, nothing special",
+24.1:"24th January, nothing special",
+25.1:"25th January, International Customs Duty Day",
+26.1:"26th January, Republic Day",
+27.1:"27th January, International Holocaust Day",
+28.1:"28th January, Birth Anniversary of Lala Lajpat Rai",
+29.1:"29th January nothing special",
+30.1:"30th January, World Leprosy Eradication Day",
+31.1:"31st January nothing special",
+1.2:"1st February, noting special",
+2.2:"2nd February, World Wetlands Day",
+3.2:"3rd February, noting special",
+4.2:"4th February, World Cancer Day",
+5.2:"5th February, noting special",
+6.2:"6th February, noting special",
+7.2:"7th February, International Development Week",
+8.2:"8th February, noting special",
+9.2:"9th February, noting special",
+10.2:"10th February, noting special",
+11.2:"11th February, noting special",
+12.2:"12th February, Darwin Day",
+13.2:"13th February, Sarojini Naidu’s Birth Anniversary",
+14.2:"14th February, Saint Valentine’s Day",
+15.2:"15th February, noting special",
+16.2:"16th February, noting special",
+17.2:"17th February, noting special",
+18.2:"February",
+19.2:"19th February, noting special",
+20.2:"20th February, World Day of Social Justice",
+21.2:"21st February, International Mother Language Day",
+22.2:"22nd February, World Scout Day",
+23.2:"23rd February, noting special",
+24.2:"24th February, Central Excise Day",
+25.2:"25th February, noting special",
+26.2:"26th February, noting special",
+27.2:"27th February, World Sustainable Energy Day",
+28.2:"28th February, National Science Day",
+29.2:"29th February, only in leap year",
+1.3:"1st March, Zero Discrimination Day",
+2.3:"2nd March, noting special",
+3.3:"3rd March, World Hearing Day",
+4.3:"4th March, National Safety Day",
+5.3:"5th March, noting special",
+6.3:"6th March, noting special",
+7.3:"7th March, noting special",
+8.3:"8th March, International Women’s Day",
+9.3:"9th March, noting special",
+10.3:"10th March, CISF Raising Day",
+11.3:"11th March, noting special",
+12.3:"12th March, noting special",
+13.3:"13th March, No Smoking Day",
+14.3:"14th March, Pi Day",
+15.3:"15th March, World Consumer Rights Day",
+16.3:"16th March, National Vaccination Day",
+17.3:"17th March, noting special",
+18.3:"18th March, noting special",
+19.3:"19th March, noting special",
+20.3:"20th March, International Day of Happiness",
+21.3:"21st March, World Down syndrome Day",
+22.3:"22nd March, World Water Day",
+23.3:"23rd March, World Meteorological Day",
+24.3:"24th March, World Tuberculosis (TB) Day",
+25.3:"25th March, noting special",
+26.3:"26th March, noting special",
+27.3:"27th March, World Theatre Day",
+28.3:"28th March, noting special",
+29.3:"29th March, noting special",
+30.3:"30th March, noting special",
+31.3:"31st March, noting special",
+1.4:"1st April, Orissa Day",
+2.4:"2nd April, World Autism Awareness Day",
+3.4:"3rd April, noting special",
+4.4:"4th April, International Day for Mine Awareness",
+5.4:"5th April, National Maritime Day",
+6.4:"6th April, noting special",
+7.4:"7th April, World Health Day",
+8.4:"8th April, noting special",
+9.4:"9th April, noting special",
+10.4:"April, World Homeopathy Day",
+11.4:"April, National Safe Motherhood Day",
+12.4:"12th April, noting special",
+13.4:"13th April, noting special",
+14.4:"14th April, noting special",
+15.4:"15th April, noting special",
+16.4:"16th April, noting special",
+17.4:"17th April, World Haemophilia Day",
+18.4:"18th April, World Heritage Day",
+19.4:"19th April, World Liver Day",
+20.4:"20th April, noting special",
+21.4:"21st April, Civil Services Day",
+22.4:"22nd April, Earth Day",
+23.4:"23rd April, World Book and Copyright Day",
+24.4:"24th April, National Panchayati Day",
+25.4:"25th April, World Malaria Day",
+26.4:"26th April, World Intellectual Property Day",
+27.4:"27th April, World Veterinary Day",
+28.4:"28th April, World Day for Safety and Health at Work",
+29.4:"29th April, International Dance Day",
+30.4:"30th April, noting special",
+1.5:"1st May, International Labour Day",
+2.5:"2nd May, noting special",
+3.5:"3rd May, Press Freedom Day",
+4.5:"4th May, International Firefighters Day",
+5.5:"5th May, noting special",
+6.5:"6th May, noting special",
+7.5:"7th May, World Athletics Day",
+8.5:"8th May, World Thalassaemia Day",
+9.5:"9th May, noting special",
+10.5:"10th May, noting special",
+11.5:"11th May, National Technology Day",
+12.5:"12th May, International Nurses Day",
+13.5:"13th May, noting special",
+14.5:"14th May, noting special",
+15.5:"15th May, International Day of the Family",
+16.5:"16th May, noting special",
+17.5:"17th May, World Telecommunication Day",
+18.5:"18th May, World AIDS Vaccine Day",
+19.5:"19th May, noting special",
+20.5:"20th May, noting special",
+21.5:"21st May, National Anti-Terrorism Day",
+22.5:"22nd May, International Day for Biological Diversity",
+23.5:"23rd May, noting special",
+24.5:"24th May, Commonwealth Day",
+25.5:"25th May, noting special",
+26.5:"26th May, noting special",
+27.5:"27th May, noting special",
+28.5:"28th May, noting special",
+29.5:"29th May, noting special",
+30.5:"30th May, noting special",
+31.5:"31st May, Anti-tobacco Day",
+1.6:"1st June, World Milk Day",
+2.6:"2nd June, noting special",
+3.6:"3rd June, World Bicycle Day",
+4.6:"4th June, International Day of Innocent Children Victims of Aggression",
+5.6:"5th June, World Environment Day",
+6.6:"6th June, noting special",
+7.6:"7th June,  World Food Safety Day",
+8.6:"8th June, World Ocean Day",
+9.6:"9th June, noting special",
+10.6:"10th June, noting special",
+11.6:"11th June, noting special",
+12.6:"12th June, Anti-Child Labor Day",
+13.6:"13th June, International Albinism Awareness Day",
+14.6:"14th June, World Blood Donor Day",
+15.6:"15th June, World Wind Day",
+16.6:"16th June, noting special",
+17.6:"17th June, noting special",
+18.6:"18th June, noting special",
+19.6:"19th June, noting special",
+20.6:"20th June, World Refugee Day",
+21.6:"21st June, International day of yoga",
+22.6:"22nd June, noting special",
+23.6:"23rd June, United Nations Public Service Day",
+24.6:"24th June, noting special",
+25.6:"25th June, noting special",
+26.6:"26th June, International Day against Drug Abuse and Illicit Trafficking",
+27.6:"27th June, noting special",
+28.6:"28th June, noting special",
+29.6:"29th June, noting special",
+30.6:"30th June,, noting special",
+1.7:"1st July, Doctor’s Day",
+2.7:"2nd July, noting special",
+3.7:"3rd July, noting special",
+4.7:"4th July, noting special",
+5.7:"5th July, noting special",
+6.7:"6th July, World Zoonoses Day",
+7.7:"7th July, noting special",
+8.7:"8th July, noting special",
+9.7:"9th July, noting special",
+10.7:"10th July, noting special",
+11.7:"11th July, World Population Day",
+12.7:"12th July, noting special",
+13.7:"13th July, noting special",
+14.7:"14th July, noting special",
+15.7:"15th July, noting special",
+16.7:"16th July, noting special",
+17.7:"17th July, World Day for International Justice",
+18.7:"18th July, International Nelson Mandela Day",
+19.7:"19th July, noting special",
+20.7:"20th July, noting special",
+21.7:"21st July, noting special",
+22.7:"22nd July, noting special",
+23.7:"23rd July, noting special",
+24.7:"24th July, noting special",
+25.7:"25th July, noting special",
+26.7:"26th July, noting special",
+27.7:"27th July, noting special",
+28.7:"28th July, World Hepatitis Day",
+29.7:"29th July, noting special",
+30.7:"30th July, noting special",
+31.7:"31st July, noting special",
+1.8:"1st August, noting special",
+2.8:"2nd August, noting special",
+3.8:"3rd August, noting special",
+4.8:"4th August, noting special",
+5.8:"5th August, noting special",
+6.8:"6th August, Hiroshima Day",
+7.8:"7th August, noting special",
+8.8:"8th August,, noting special",
+9.8:"9th August, IntI. Day of the World’s Indigenous Peoples",
+10.8:"10th August, noting special",
+11.8:"11th August, noting special",
+12.8:"12th August, International Youth Day",
+13.8:"13th August, noting special",
+14.8:"14th August, Pakistan's Independence Day",
+15.8:"15th August, noting special",
+16.8:"16th August, noting special",
+17.8:"17th August, noting special",
+18.8:"18th August, noting special",
+19.8:"19th August,  World Humanitarian Day",
+20.8:"20th August, noting special",
+21.8:"21st August, noting special",
+22.8:"22nd August, noting special",
+23.8:"23rd August, noting special",
+24.8:"24th August, noting special",
+25.8:"25th August, noting special",
+26.8:"26th August, noting special",
+27.8:"27th August, noting special",
+28.8:"28th August, noting special",
+29.8:"29th August,  National Sports Day",
+30.8:"30th August, noting special",
+31.8:"31st August, noting special",
+1.9:"1st September, noting special",
+2.9:"2nd September, Coconut Day",
+3.9:"3rd September, noting special",
+4.9:"4th September, noting special",
+5.9:"5th September,  Teachers’ Day",
+6.9:"6th September, noting special",
+7.9:"7th September, noting special",
+8.9:"8th September, International Literacy Day",
+9.9:"9th September, noting special",
+10.9:"10th September, noting special",
+11.9:"11th September, noting special",
+12.9:"12th September, noting special",
+13.9:"13th September, noting special",
+14.9:"14th September, noting special",
+15.9:"15th September International Day of Democracy",
+16.9:"16th September, World Ozone Day",
+17.9:"17th September, noting special",
+18.9:"18th September, noting special",
+19.9:"19th September, noting special",
+20.9:"20th September, noting special",
+21.9:"21st September, Alzheimer’s Day",
+22.9:"22nd September, Rose Day",
+23.9:"23rd September, International Day of Sign Languages",
+24.9:"24th September, noting special",
+25.9:"25th September, noting special",
+26.9:"26th September, Day of the Deaf",
+27.9:"27th September, World Tourism Day",
+28.9:"28th September, noting special",
+29.9:"29th September, World Heart Day",
+30.9:"30th September,  International Translation Day",
+1.101:"1st October, International Day for the Elderly",
+2.101:"2nd October, International Day of Non-Violence",
+3.101:"3rd October, noting special",
+4.101:"4th October, World Animal Welfare Day",
+5.101:"5th October, noting special",
+6.101:"6th October, noting special",
+7.101:"7th October, noting special",
+8.101:"8th October, noting special",
+9.101:"9th October, World Post Office Day",
+10.101:"10th October, World Mental Health Day",
+11.101:"11th October, National Girl Child Day",
+12.101:"12th October, noting special",
+13.101:"13th October, UN International Day for Natural Disaster Reduction",
+14.101:"14th October, World Standards Day",
+15.101:"15th October, World Students Day",
+16.101:"16th October, World Food Day",
+17.101:"17th October, noting special",
+18.101:"18th October, noting special",
+19.101:"19th October, noting special",
+20.101:"20th October, noting special",
+21.101:"21st October, noting special",
+22.101:"22nd October, noting special",
+23.101:"23rd October, noting special",
+24.101:"24th October, UN Day",
+25.101:"25th October, noting special",
+26.101:"26th October, noting special",
+27.101:"27th October, noting special",
+28.101:"28th October, noting special",
+29.101:"29th October, noting special",
+30.101:"30th October, World Thrift Day",
+31.101:"31st October, National Unity Day",
+1.11:"1st November, noting special",
+2.11:"2nd November, noting special",
+3.11:"3rd November, noting special",
+4.11:"4th November, noting special",
+5.11:"5th November, World tsunami day",
+6.11:"6th November, noting special",
+7.11:"7th November, National Cancer Awareness Day",
+8.11:"8th November, noting special",
+9.11:"9th November, Legal Services Day",
+10.11:"10th November, noting special",
+11.11:"11th November, noting special",
+12.11:"12thNovember, noting special",
+13.11:"13th November, noting special",
+14.11:"14th November, Children’s Day",
+15.11:"15th November, noting special",
+16.11:"16th November, noting special",
+17.11:"17th November, National Epilepsy Day",
+18.11:"18th November, noting special",
+19.11:"19th November, noting special",
+20.11:"20th November, Africa Industrialization Day",
+21.11:"21st November, World Television Day",
+22.11:"22nd November, noting special",
+23.11:"23rd November, noting special",
+24.11:"24th November, noting special",
+25.11:"25th November, noting special",
+26.11:"26th November, noting special",
+27.11:"27th November, noting special",
+28.11:"28th November, noting special",
+29.11:"29th November, International Day of Solidarity with Palestinian People",
+30.11:"30th November, noting special",
+1.12:"1st December, World Aids Day",
+2.12:"2nd December, World Computer literacy day",
+3.12:"3rd December, World conservation day",
+4.12:"4th December, Navy Day",
+5.12:"5th December, International volunteer day for economic and social development",
+6.12:"6th December, nothing special",
+7.12:"7th December, Armed Forces Flag Day, Internat",
+8.12:"8th December, nothing special",
+9.12:"9th December, The International day against corruption",
+10.12:"10th December, Human Right Day",
+11.12:"11th December, International Mountain day",
+12.12:"12th December, nothing special",
+13.12:"13th December, nothing special",
+14.12:"14th December, International Energy day",
+15.12:"15th December, nothing special",
+16.12:"16th December, nothing special",
+17.12:"17th December, nothing special",
+18.12:"18th December, International Migrants day",
+19.12:"19th December, nothing special",
+20.12:"20th December, International Human solidarity",
+21.12:"21st December, nothing special",
+22.12:"22nd December, nothing special",
+23.12:"23rd December, Farmer’s Day",
+24.12:"24th December, nothing special",
+25.12:"25th December, nothing special",
+26.12:"26th December, nothing special",
+27.12:"27th December, nothing special",
+28.12:"28th December, nothing special",
+29.12:"29th December, nothing special",
+30.12:"30th December, nothing special",
+31.12:"31st December, nothing special",
+}
+print("Welcome to MHZ calender:")
+n = int(input("Please enter number of days you want to find:"))
+x = 1
+while (x <= n):
+    y=int(input("Enter day in the format DD and if number of day is 1-9 then write that number without 0:"))
+    z=int(input("Enter month in the format MM and if number of month is 1-9 then write that number without 0:"))
+    if (y==1 and z==1):
+        print(special_days.get(1.1))
+    elif (y==2 and z==1):
+        print(special_days.get(2.1))
+    elif (y == 3 and z == 1):
+        print(special_days.get(3.1))
+    elif (y==4 and z==1):
+        print(special_days.get(4.1))
+    elif (y == 5 and z == 1):
+        print(special_days.get(5.1))
+    elif (y==6 and z==1):
+        print(special_days.get(6.1))
+    elif (y == 7 and z == 1):
+        print(special_days.get(7.1))
+    elif (y==8 and z==1):
+        print(special_days.get(8.1))
+    elif (y == 9 and z == 1):
+        print(special_days.get(9.1))
+    elif (y==10 and z==1):
+        print(special_days.get(10.1))
+    elif (y == 11 and z == 1):
+        print(special_days.get(11.1))
+    elif (y==12 and z==1):
+        print(special_days.get(12.1))
+    elif (y == 13 and z == 1):
+        print(special_days.get(13.1))
+    elif (y==14 and z==1):
+        print(special_days.get(14.1))
+    elif (y == 15 and z == 1):
+        print(special_days.get(15.1))
+    elif (y == 16 and z == 1):
+        print(special_days.get(16.1))
+    elif (y==17 and z==1):
+        print(special_days.get(17.1))
+    elif (y == 18 and z == 1):
+        print(special_days.get(18.1))
+    elif (y==19 and z==1):
+        print(special_days.get(19.1))
+    elif (y == 20 and z == 1):
+        print(special_days.get(20.1))
+    elif (y==21 and z==1):
+        print(special_days.get(21.1))
+    elif (y == 22 and z == 1):
+        print(special_days.get(22.1))
+    elif (y==23 and z==1):
+        print(special_days.get(23.1))
+    elif (y == 24 and z == 1):
+        print(special_days.get(24.1))
+    elif (y==25 and z==1):
+        print(special_days.get(25.1))
+    elif (y == 26 and z == 1):
+        print(special_days.get(26.1))
+    elif (y==27 and z==1):
+        print(special_days.get(27.1))
+    elif (y == 28 and z == 1):
+        print(special_days.get(28.1))
+    elif (y==29 and z==1):
+        print(special_days.get(29.1))
+    elif (y == 30 and z == 1):
+        print(special_days.get(30.1))
+    elif (y == 31 and z == 1):
+        print(special_days.get(31.1))
+    elif (y == 1 and z == 2):
+        print(special_days.get(1.2))
+    elif (y == 2 and z == 2):
+        print(special_days.get(2.2))
+    elif (y == 3 and z == 2):
+        print(special_days.get(3.2))
+    elif (y == 4 and z == 2):
+        print(special_days.get(4.2))
+    elif (y == 5 and z == 2):
+        print(special_days.get(5.2))
+    elif (y == 6 and z == 2):
+        print(special_days.get(6.2))
+    elif (y == 7 and z == 2):
+        print(special_days.get(7.2))
+    elif (y == 8 and z == 2):
+        print(special_days.get(8.2))
+    elif (y == 9 and z == 2):
+        print(special_days.get(9.2))
+    elif (y == 10 and z ==2):
+        print(special_days.get(10.2))
+    elif (y == 11 and z ==2):
+        print(special_days.get(11.2))
+    elif (y == 12 and z == 2):
+        print(special_days.get(12.2))
+    elif (y == 13 and z == 2):
+        print(special_days.get(13.2))
+    elif (y == 14 and z == 2):
+        print(special_days.get(14.2))
+    elif (y == 15 and z == 2):
+        print(special_days.get(15.2))
+    elif (y == 16 and z == 2):
+        print(special_days.get(16.2))
+    elif (y == 17 and z == 2):
+        print(special_days.get(17.2))
+    elif (y == 18 and z == 2):
+        print(special_days.get(18.2))
+    elif (y == 19 and z == 2):
+        print(special_days.get(19.2))
+    elif (y == 20 and z == 2):
+        print(special_days.get(20.2))
+    elif (y == 21 and z == 2):
+        print(special_days.get(21.2))
+    elif (y == 22 and z == 2):
+        print(special_days.get(22.2))
+    elif (y == 23 and z == 2):
+        print(special_days.get(23.2))
+    elif (y == 24 and z == 2):
+        print(special_days.get(24.2))
+    elif (y == 25 and z == 2):
+        print(special_days.get(25.2))
+    elif (y == 26 and z == 2):
+        print(special_days.get(26.2))
+    elif (y == 27 and z == 2):
+        print(special_days.get(27.2))
+    elif (y == 28 and z == 2):
+        print(special_days.get(28.2))
+    elif (y == 29 and z == 2):
+        print(special_days.get(29.2))
+    elif (y == 30 and z == 2):
+        print(special_days.get(30.2))
+    elif (y == 31 and z == 2):
+        print(special_days.get(31.2))
+    elif (y == 1 and z == 3):
+        print(special_days.get(1.3))
+    elif (y == 2 and z == 3):
+        print(special_days.get(2.3))
+    elif (y == 3 and z == 3):
+        print(special_days.get(3.3))
+    elif (y == 4 and z == 3):
+        print(special_days.get(4.3))
+    elif (y == 5 and z == 3):
+        print(special_days.get(5.3))
+    elif (y == 6 and z == 3):
+        print(special_days.get(6.3))
+    elif (y == 7 and z == 3):
+        print(special_days.get(7.3))
+    elif (y == 8 and z == 3):
+        print(special_days.get(8.3))
+    elif (y == 9 and z == 3):
+        print(special_days.get(9.3))
+    elif (y == 10 and z == 3):
+        print(special_days.get(10.3))
+    elif (y == 11 and z == 3):
+        print(special_days.get(11.3))
+    elif (y == 12 and z == 3):
+        print(special_days.get(12.3))
+    elif (y == 13 and z == 3):
+        print(special_days.get(13.3))
+    elif (y == 14 and z == 3):
+        print(special_days.get(14.3))
+    elif (y == 15 and z == 3):
+        print(special_days.get(15.3))
+    elif (y == 16 and z == 3):
+        print(special_days.get(16.3))
+    elif (y == 17 and z == 3):
+        print(special_days.get(17.3))
+    elif (y == 18 and z == 3):
+        print(special_days.get(18.3))
+    elif (y == 19 and z == 3):
+        print(special_days.get(19.3))
+    elif (y == 20 and z == 3):
+        print(special_days.get(20.3))
+    elif (y == 21 and z == 3):
+        print(special_days.get(21.3))
+    elif (y == 22 and z == 3):
+        print(special_days.get(22.3))
+    elif (y == 23 and z == 3):
+        print(special_days.get(23.3))
+    elif (y == 24 and z == 3):
+        print(special_days.get(24.3))
+    elif (y == 25 and z == 3):
+        print(special_days.get(25.3))
+    elif (y == 26 and z == 3):
+        print(special_days.get(26.3))
+    elif (y == 27 and z == 3):
+        print(special_days.get(27.3))
+    elif (y == 28 and z == 3):
+        print(special_days.get(28.3))
+    elif (y == 29 and z == 3):
+        print(special_days.get(29.3))
+    elif (y == 30 and z == 3):
+        print(special_days.get(30.3))
+    elif (y == 31 and z == 3):
+        print(special_days.get(31.3))
+    elif (y == 1 and z == 4):
+        print(special_days.get(1.4))
+    elif (y == 2 and z == 43):
+        print(special_days.get(2.4))
+    elif (y == 3 and z == 4):
+        print(special_days.get(3.4))
+    elif (y == 4 and z == 4):
+        print(special_days.get(4.4))
+    elif (y == 5 and z == 4):
+        print(special_days.get(5.4))
+    elif (y == 6 and z == 4):
+        print(special_days.get(6.4))
+    elif (y == 7 and z == 4):
+        print(special_days.get(7.4))
+    elif (y == 8 and z == 4):
+        print(special_days.get(8.4))
+    elif (y == 9 and z == 4):
+        print(special_days.get(9.4))
+    elif (y == 10 and z == 4):
+        print(special_days.get(10.4))
+    elif (y == 11 and z == 4):
+        print(special_days.get(11.4))
+    elif (y == 12 and z == 4):
+        print(special_days.get(12.4))
+    elif (y == 13 and z == 4):
+        print(special_days.get(13.4))
+    elif (y == 14 and z == 4):
+        print(special_days.get(14.4))
+    elif (y == 15 and z == 4):
+        print(special_days.get(15.4))
+    elif (y == 16 and z == 4):
+        print(special_days.get(16.4))
+    elif (y == 17 and z == 4):
+        print(special_days.get(17.4))
+    elif (y == 18 and z == 4):
+        print(special_days.get(18.4))
+    elif (y == 19 and z == 4):
+        print(special_days.get(19.4))
+    elif (y == 20 and z == 4):
+        print(special_days.get(20.4))
+    elif (y == 21 and z == 4):
+        print(special_days.get(21.4))
+    elif (y == 22 and z == 4):
+        print(special_days.get(22.4))
+    elif (y == 23 and z == 4):
+        print(special_days.get(23.4))
+    elif (y == 24 and z == 4):
+        print(special_days.get(24.4))
+    elif (y == 25 and z == 4):
+        print(special_days.get(25.4))
+    elif (y == 26 and z == 4):
+        print(special_days.get(26.4))
+    elif (y == 27 and z == 4):
+        print(special_days.get(27.4))
+    elif (y == 28 and z == 4):
+        print(special_days.get(28.4))
+    elif (y == 29 and z == 4):
+        print(special_days.get(29.4))
+    elif (y == 30 and z == 4):
+        print(special_days.get(30.4))
+    elif (y == 31 and z == 4):
+        print(special_days.get(31.4))
+    elif (y == 1 and z == 5):
+        print(special_days.get(1.5))
+    elif (y == 2 and z == 5):
+        print(special_days.get(2.5))
+    elif (y == 3 and z == 5):
+        print(special_days.get(3.5))
+    elif (y == 4 and z == 5):
+        print(special_days.get(4.5))
+    elif (y == 5 and z == 5):
+        print(special_days.get(5.5))
+    elif (y == 6 and z == 5):
+        print(special_days.get(6.5))
+    elif (y == 7 and z == 5):
+        print(special_days.get(7.5))
+    elif (y == 8 and z == 5):
+        print(special_days.get(8.5))
+    elif (y == 9 and z == 5):
+        print(special_days.get(9.5))
+    elif (y == 10 and z == 5):
+        print(special_days.get(10.5))
+    elif (y == 11 and z == 5):
+        print(special_days.get(11.5))
+    elif (y == 12 and z == 5):
+        print(special_days.get(12.5))
+    elif (y == 13 and z == 5):
+        print(special_days.get(13.5))
+    elif (y == 14 and z == 5):
+        print(special_days.get(14.5))
+    elif (y == 15 and z == 5):
+        print(special_days.get(15.5))
+    elif (y == 16 and z == 5):
+        print(special_days.get(16.5))
+    elif (y == 17 and z == 5):
+        print(special_days.get(17.5))
+    elif (y == 18 and z == 5):
+        print(special_days.get(18.5))
+    elif (y == 19 and z == 5):
+        print(special_days.get(19.5))
+    elif (y == 20 and z == 5):
+        print(special_days.get(20.5))
+    elif (y == 21 and z == 5):
+        print(special_days.get(21.5))
+    elif (y == 22 and z == 5):
+        print(special_days.get(22.5))
+    elif (y == 23 and z == 5):
+        print(special_days.get(23.5))
+    elif (y == 24 and z == 5):
+        print(special_days.get(24.5))
+    elif (y == 25 and z == 5):
+        print(special_days.get(25.5))
+    elif (y == 26 and z == 5):
+        print(special_days.get(26.5))
+    elif (y == 27 and z == 5):
+        print(special_days.get(27.5))
+    elif (y == 28 and z == 5):
+        print(special_days.get(28.5))
+    elif (y == 29 and z == 5):
+        print(special_days.get(29.5))
+    elif (y == 30 and z == 5):
+        print(special_days.get(30.5))
+    elif (y == 31 and z == 5):
+        print(special_days.get(31.5))
+    elif (y == 1 and z == 6):
+        print(special_days.get(1.6))
+    elif (y == 2 and z == 6):
+        print(special_days.get(2.6))
+    elif (y == 3 and z == 6):
+        print(special_days.get(3.6))
+    elif (y == 4 and z == 6):
+        print(special_days.get(4.6))
+    elif (y == 5 and z == 6):
+        print(special_days.get(5.6))
+    elif (y == 6 and z == 6):
+        print(special_days.get(6.6))
+    elif (y == 7 and z == 6):
+        print(special_days.get(7.6))
+    elif (y == 8 and z == 6):
+        print(special_days.get(8.6))
+    elif (y == 9 and z == 6):
+        print(special_days.get(9.6))
+    elif (y == 10 and z == 6):
+        print(special_days.get(10.6))
+    elif (y == 11 and z == 6):
+        print(special_days.get(11.6))
+    elif (y == 12 and z == 6):
+        print(special_days.get(12.6))
+    elif (y == 13 and z == 6):
+        print(special_days.get(13.6))
+    elif (y == 14 and z == 6):
+        print(special_days.get(14.6))
+    elif (y == 15 and z == 6):
+        print(special_days.get(15.6))
+    elif (y == 16 and z == 6):
+        print(special_days.get(16.6))
+    elif (y == 17 and z == 6):
+        print(special_days.get(17.6))
+    elif (y == 18 and z == 6):
+        print(special_days.get(18.6))
+    elif (y == 19 and z == 6):
+        print(special_days.get(19.6))
+    elif (y == 20 and z == 6):
+        print(special_days.get(20.6))
+    elif (y == 21 and z == 6):
+        print(special_days.get(21.6))
+    elif (y == 22 and z == 6):
+        print(special_days.get(22.6))
+    elif (y == 23 and z == 6):
+        print(special_days.get(23.6))
+    elif (y == 24 and z == 6):
+        print(special_days.get(24.6))
+    elif (y == 25 and z == 6):
+        print(special_days.get(25.6))
+    elif (y == 26 and z == 6):
+        print(special_days.get(26.6))
+    elif (y == 27 and z == 6):
+        print(special_days.get(27.6))
+    elif (y == 28 and z == 6):
+        print(special_days.get(28.6))
+    elif (y == 29 and z == 6):
+        print(special_days.get(29.6))
+    elif (y == 30 and z == 6):
+        print(special_days.get(30.6))
+    elif (y == 31 and z == 6):
+        print(special_days.get(31.6))
+    elif (y == 1 and z == 7):
+        print(special_days.get(1.7))
+    elif (y == 2 and z == 7):
+        print(special_days.get(2.7))
+    elif (y == 3 and z == 7):
+        print(special_days.get(3.7))
+    elif (y == 4 and z == 7):
+        print(special_days.get(4.7))
+    elif (y == 5 and z == 7):
+        print(special_days.get(5.7))
+    elif (y == 6 and z == 7):
+        print(special_days.get(6.7))
+    elif (y == 7 and z == 7):
+        print(special_days.get(7.7))
+    elif (y == 8 and z == 7):
+        print(special_days.get(8.7))
+    elif (y == 9 and z == 7):
+        print(special_days.get(9.7))
+    elif (y == 10 and z ==7):
+        print(special_days.get(10.7))
+    elif (y == 11 and z == 7):
+        print(special_days.get(11.7))
+    elif (y == 12 and z == 7):
+        print(special_days.get(12.7))
+    elif (y == 13 and z == 7):
+        print(special_days.get(13.7))
+    elif (y == 14 and z == 7):
+        print(special_days.get(14.7))
+    elif (y == 15 and z == 7):
+        print(special_days.get(15.7))
+    elif (y == 16 and z == 7):
+        print(special_days.get(16.7))
+    elif (y == 17 and z == 7):
+        print(special_days.get(17.7))
+    elif (y == 18 and z == 7):
+        print(special_days.get(18.7))
+    elif (y == 19 and z == 7):
+        print(special_days.get(19.7))
+    elif (y == 20 and z == 7):
+        print(special_days.get(20.7))
+    elif (y == 21 and z == 7):
+        print(special_days.get(21.7))
+    elif (y == 22 and z == 7):
+        print(special_days.get(22.7))
+    elif (y == 23 and z == 7):
+        print(special_days.get(23.7))
+    elif (y == 24 and z == 7):
+        print(special_days.get(24.7))
+    elif (y == 25 and z == 7):
+        print(special_days.get(25.7))
+    elif (y == 26 and z == 7):
+        print(special_days.get(26.7))
+    elif (y == 27 and z == 7):
+        print(special_days.get(27.7))
+    elif (y == 28 and z == 7):
+        print(special_days.get(28.7))
+    elif (y == 29 and z == 7):
+        print(special_days.get(29.7))
+    elif (y == 30 and z == 7):
+        print(special_days.get(30.7))
+    elif (y == 31 and z == 7):
+        print(special_days.get(31.7))
+    elif (y == 1 and z == 8):
+        print(special_days.get(1.8))
+    elif (y == 2 and z == 8):
+        print(special_days.get(2.8))
+    elif (y == 3 and z == 8):
+        print(special_days.get(3.8))
+    elif (y == 4 and z == 8):
+        print(special_days.get(4.8))
+    elif (y == 5 and z == 8):
+        print(special_days.get(5.8))
+    elif (y == 6 and z == 8):
+        print(special_days.get(6.8))
+    elif (y == 7 and z == 8):
+        print(special_days.get(7.8))
+    elif (y == 8 and z == 8):
+        print(special_days.get(8.8))
+    elif (y == 9 and z == 8):
+        print(special_days.get(9.8))
+    elif (y == 10 and z == 8):
+        print(special_days.get(10.8))
+    elif (y == 11 and z == 8):
+        print(special_days.get(11.8))
+    elif (y == 12 and z == 8):
+        print(special_days.get(12.8))
+    elif (y == 13 and z == 8):
+        print(special_days.get(13.8))
+    elif (y == 14 and z == 8):
+        print(special_days.get(14.8))
+    elif (y == 15 and z == 8):
+        print(special_days.get(15.8))
+    elif (y == 16 and z == 8):
+        print(special_days.get(16.8))
+    elif (y == 17 and z == 8):
+        print(special_days.get(17.8))
+    elif (y == 18 and z == 8):
+        print(special_days.get(18.8))
+    elif (y == 19 and z == 8):
+        print(special_days.get(19.8))
+    elif (y == 20 and z == 8):
+        print(special_days.get(20.8))
+    elif (y == 21 and z == 8):
+        print(special_days.get(21.8))
+    elif (y == 22 and z == 8):
+        print(special_days.get(22.8))
+    elif (y == 23 and z == 8):
+        print(special_days.get(23.8))
+    elif (y == 24 and z == 8):
+        print(special_days.get(24.8))
+    elif (y == 25 and z == 8):
+        print(special_days.get(25.8))
+    elif (y == 26 and z == 8):
+        print(special_days.get(26.8))
+    elif (y == 27 and z == 8):
+        print(special_days.get(27.8))
+    elif (y == 28 and z == 8):
+        print(special_days.get(28.8))
+    elif (y == 29 and z == 8):
+        print(special_days.get(29.8))
+    elif (y == 30 and z == 8):
+        print(special_days.get(30.8))
+    elif (y == 31 and z == 8):
+        print(special_days.get(31.8))
+    elif (y == 1 and z == 9):
+        print(special_days.get(1.9))
+    elif (y == 2 and z == 9):
+        print(special_days.get(2.9))
+    elif (y == 3 and z == 9):
+        print(special_days.get(3.9))
+    elif (y == 4 and z == 9):
+        print(special_days.get(4.9))
+    elif (y == 5 and z == 9):
+        print(special_days.get(5.9))
+    elif (y == 6 and z == 9):
+        print(special_days.get(6.9))
+    elif (y == 7 and z == 9):
+        print(special_days.get(7.9))
+    elif (y == 8 and z == 9):
+        print(special_days.get(8.9))
+    elif (y == 9 and z == 9):
+        print(special_days.get(9.9))
+    elif (y == 10 and z == 9):
+        print(special_days.get(10.9))
+    elif (y == 11 and z == 9):
+        print(special_days.get(11.9))
+    elif (y == 12 and z == 9):
+        print(special_days.get(12.9))
+    elif (y == 13 and z == 9):
+        print(special_days.get(13.9))
+    elif (y == 14 and z == 9):
+        print(special_days.get(14.9))
+    elif (y == 15 and z == 9):
+        print(special_days.get(15.9))
+    elif (y == 16 and z == 9):
+        print(special_days.get(16.9))
+    elif (y == 17 and z == 9):
+        print(special_days.get(17.9))
+    elif (y == 18 and z == 9):
+        print(special_days.get(18.9))
+    elif (y == 19 and z == 9):
+        print(special_days.get(19.9))
+    elif (y == 20 and z == 9):
+        print(special_days.get(20.9))
+    elif (y == 21 and z == 9):
+        print(special_days.get(21.9))
+    elif (y == 22 and z == 9):
+        print(special_days.get(22.9))
+    elif (y == 23 and z == 9):
+        print(special_days.get(23.9))
+    elif (y == 24 and z == 9):
+        print(special_days.get(24.9))
+    elif (y == 25 and z == 9):
+        print(special_days.get(25.9))
+    elif (y == 26 and z == 9):
+        print(special_days.get(26.9))
+    elif (y == 27 and z == 9):
+        print(special_days.get(27.9))
+    elif (y == 28 and z == 9):
+        print(special_days.get(28.9))
+    elif (y == 29 and z == 9):
+        print(special_days.get(29.9))
+    elif (y == 30 and z == 9):
+        print(special_days.get(30.9))
+    elif (y == 31 and z == 9):
+        print(special_days.get(31.9))
+    elif (y == 1 and z == 10):
+        print(special_days.get(1.101))
+    elif (y == 2 and z == 10):
+        print(special_days.get(2.101))
+    elif (y == 3 and z == 10):
+        print(special_days.get(3.101))
+    elif (y == 4 and z == 10):
+        print(special_days.get(4.101))
+    elif (y == 5 and z == 10):
+        print(special_days.get(5.101))
+    elif (y == 6 and z == 10):
+        print(special_days.get(6.101))
+    elif (y == 7 and z == 10):
+        print(special_days.get(7.101))
+    elif (y == 8 and z == 10):
+        print(special_days.get(8.101))
+    elif (y == 9 and z == 10):
+        print(special_days.get(9.101))
+    elif (y == 10 and z == 10):
+        print(special_days.get(10.101))
+    elif (y == 11 and z == 10):
+        print(special_days.get(11.101))
+    elif (y == 12 and z == 10):
+        print(special_days.get(12.101))
+    elif (y == 13 and z == 10):
+        print(special_days.get(13.101))
+    elif (y == 14 and z == 10):
+        print(special_days.get(14.101))
+    elif (y == 15 and z == 10):
+        print(special_days.get(15.101))
+    elif (y == 16 and z == 10):
+        print(special_days.get(16.101))
+    elif (y == 17 and z == 10):
+        print(special_days.get(17.101))
+    elif (y == 18 and z == 10):
+        print(special_days.get(18.101))
+    elif (y == 19 and z == 10):
+        print(special_days.get(19.101))
+    elif (y == 20 and z == 10):
+        print(special_days.get(20.101))
+    elif (y == 21 and z == 10):
+        print(special_days.get(21.101))
+    elif (y == 22 and z == 10):
+        print(special_days.get(22.101))
+    elif (y == 23 and z == 10):
+        print(special_days.get(23.101))
+    elif (y == 24 and z == 10):
+        print(special_days.get(24.101))
+    elif (y == 25 and z == 10):
+        print(special_days.get(25.101))
+    elif (y == 26 and z == 10):
+        print(special_days.get(26.101))
+    elif (y == 27 and z == 10):
+        print(special_days.get(27.101))
+    elif (y == 28 and z == 10):
+        print(special_days.get(28.101))
+    elif (y == 29 and z == 10):
+        print(special_days.get(29.101))
+    elif (y == 30 and z == 10):
+        print(special_days.get(30.101))
+    elif (y == 31 and z == 10):
+        print(special_days.get(31.101))
+    elif (y == 1 and z == 11):
+        print(special_days.get(1.11))
+    elif (y == 2 and z == 11):
+        print(special_days.get(2.11))
+    elif (y == 3 and z == 11):
+        print(special_days.get(3.11))
+    elif (y == 4 and z == 11):
+        print(special_days.get(4.11))
+    elif (y == 5 and z == 11):
+        print(special_days.get(5.11))
+    elif (y == 6 and z == 11):
+        print(special_days.get(6.11))
+    elif (y == 7 and z == 11):
+        print(special_days.get(7.11))
+    elif (y == 8 and z == 11):
+        print(special_days.get(8.11))
+    elif (y == 9 and z == 11):
+        print(special_days.get(9.11))
+    elif (y == 10 and z == 11):
+        print(special_days.get(10.11))
+    elif (y == 11 and z == 11):
+        print(special_days.get(11.11))
+    elif (y == 12 and z == 11):
+        print(special_days.get(12.11))
+    elif (y == 13 and z == 11):
+        print(special_days.get(13.11))
+    elif (y == 14 and z == 11):
+        print(special_days.get(14.11))
+    elif (y == 15 and z == 11):
+        print(special_days.get(15.11))
+    elif (y == 16 and z == 11):
+        print(special_days.get(16.11))
+    elif (y == 17 and z == 11):
+        print(special_days.get(17.11))
+    elif (y == 18 and z == 11):
+        print(special_days.get(18.11))
+    elif (y == 19 and z == 11):
+        print(special_days.get(19.11))
+    elif (y == 20 and z == 11):
+        print(special_days.get(20.11))
+    elif (y == 21 and z == 11):
+        print(special_days.get(21.11))
+    elif (y == 22 and z == 11):
+        print(special_days.get(22.11))
+    elif (y == 23 and z == 11):
+        print(special_days.get(23.11))
+    elif (y == 24 and z == 11):
+        print(special_days.get(24.11))
+    elif (y == 25 and z == 11):
+        print(special_days.get(25.11))
+    elif (y == 26 and z == 11):
+        print(special_days.get(26.11))
+    elif (y == 27 and z == 11):
+        print(special_days.get(27.11))
+    elif (y == 28 and z == 11):
+        print(special_days.get(28.11))
+    elif (y == 29 and z == 11):
+        print(special_days.get(29.11))
+    elif (y == 30 and z == 11):
+        print(special_days.get(30.11))
+    elif (y == 31 and z == 11):
+        print(special_days.get(31.11))
+    elif (y == 1 and z == 12):
+        print(special_days.get(1.12))
+    elif (y == 2 and z == 12):
+        print(special_days.get(2.12))
+    elif (y == 3 and z == 12):
+        print(special_days.get(3.12))
+    elif (y == 4 and z == 12):
+        print(special_days.get(4.12))
+    elif (y == 5 and z == 12):
+        print(special_days.get(5.12))
+    elif (y == 6 and z == 12):
+        print(special_days.get(6.12))
+    elif (y == 7 and z == 12):
+        print(special_days.get(7.12))
+    elif (y == 8 and z == 12):
+        print(special_days.get(8.12))
+    elif (y == 9 and z == 12):
+        print(special_days.get(9.12))
+    elif (y == 10 and z == 12):
+        print(special_days.get(10.12))
+    elif (y == 11 and z == 12):
+        print(special_days.get(11.12))
+    elif (y == 12 and z == 12):
+        print(special_days.get(12.12))
+    elif (y == 13 and z == 12):
+        print(special_days.get(13.12))
+    elif (y == 14 and z == 12):
+        print(special_days.get(14.12))
+    elif (y == 15 and z == 12):
+        print(special_days.get(15.12))
+    elif (y == 16 and z == 12):
+        print(special_days.get(16.12))
+    elif (y == 17 and z == 12):
+        print(special_days.get(17.12))
+    elif (y == 18 and z == 12):
+        print(special_days.get(18.12))
+    elif (y == 19 and z == 12):
+        print(special_days.get(19.12))
+    elif (y == 20 and z == 12):
+        print(special_days.get(20.12))
+    elif (y == 21 and z == 12):
+        print(special_days.get(21.12))
+    elif (y == 22 and z == 12):
+        print(special_days.get(22.12))
+    elif (y == 23 and z == 12):
+        print(special_days.get(23.12))
+    elif (y == 24 and z == 12):
+        print(special_days.get(24.12))
+    elif (y == 25 and z == 12):
+        print(special_days.get(25.12))
+    elif (y == 26 and z == 12):
+        print(special_days.get(26.12))
+    elif (y == 27 and z == 12):
+        print(special_days.get(27.12))
+    elif (y == 28 and z == 12):
+        print(special_days.get(28.12))
+    elif (y == 29 and z == 12):
+        print(special_days.get(29.12))
+    elif (y == 30 and z == 12):
+        print(special_days.get(30.12))
+    elif (y == 31 and z == 12):
+        print(special_days.get(31.12))
+    x=x+1
+
+b=int(input("Press 1 if you want to have calneder otherwise press 0 :\n"))
+if(b==1):
+    pass
+elif(b==0):
+    print("Thanks for using me...")
+    exit(1)
+else:
+    while(b!=0 or b!=1):
+        b=int(input("Enter either 1 or 0:\n"))
+        if (b == 1):
+            break
+        elif (b == 0):
+            print("Thanks for using me...")
+            exit(1)
+
+# ----printing whole calender-----
+print("\n\n\nPrinting whole calender......\n\n")
+
+z=1
+y=1
+while(z<=12):
+    print(f"\n\n{z} month\n")
+    y=1
+    while(y<=31):
+        if (y == 1 and z == 1):
+            print(special_days.get(1.1))
+        elif (y == 2 and z == 1):
+            print(special_days.get(2.1))
+        elif (y == 3 and z == 1):
+            print(special_days.get(3.1))
+        elif (y == 4 and z == 1):
+            print(special_days.get(4.1))
+        elif (y == 5 and z == 1):
+            print(special_days.get(5.1))
+        elif (y == 6 and z == 1):
+            print(special_days.get(6.1))
+        elif (y == 7 and z == 1):
+            print(special_days.get(7.1))
+        elif (y == 8 and z == 1):
+            print(special_days.get(8.1))
+        elif (y == 9 and z == 1):
+            print(special_days.get(9.1))
+        elif (y == 10 and z == 1):
+            print(special_days.get(10.1))
+        elif (y == 11 and z == 1):
+            print(special_days.get(11.1))
+        elif (y == 12 and z == 1):
+            print(special_days.get(12.1))
+        elif (y == 13 and z == 1):
+            print(special_days.get(13.1))
+        elif (y == 14 and z == 1):
+            print(special_days.get(14.1))
+        elif (y == 15 and z == 1):
+            print(special_days.get(15.1))
+        elif (y == 16 and z == 1):
+            print(special_days.get(16.1))
+        elif (y == 17 and z == 1):
+            print(special_days.get(17.1))
+        elif (y == 18 and z == 1):
+            print(special_days.get(18.1))
+        elif (y == 19 and z == 1):
+            print(special_days.get(19.1))
+        elif (y == 20 and z == 1):
+            print(special_days.get(20.1))
+        elif (y == 21 and z == 1):
+            print(special_days.get(21.1))
+        elif (y == 22 and z == 1):
+            print(special_days.get(22.1))
+        elif (y == 23 and z == 1):
+            print(special_days.get(23.1))
+        elif (y == 24 and z == 1):
+            print(special_days.get(24.1))
+        elif (y == 25 and z == 1):
+            print(special_days.get(25.1))
+        elif (y == 26 and z == 1):
+            print(special_days.get(26.1))
+        elif (y == 27 and z == 1):
+            print(special_days.get(27.1))
+        elif (y == 28 and z == 1):
+            print(special_days.get(28.1))
+        elif (y == 29 and z == 1):
+            print(special_days.get(29.1))
+        elif (y == 30 and z == 1):
+            print(special_days.get(30.1))
+        elif (y == 31 and z == 1):
+            print(special_days.get(31.1))
+        elif (y == 1 and z == 2):
+            print(special_days.get(1.2))
+        elif (y == 2 and z == 2):
+            print(special_days.get(2.2))
+        elif (y == 3 and z == 2):
+            print(special_days.get(3.2))
+        elif (y == 4 and z == 2):
+            print(special_days.get(4.2))
+        elif (y == 5 and z == 2):
+            print(special_days.get(5.2))
+        elif (y == 6 and z == 2):
+            print(special_days.get(6.2))
+        elif (y == 7 and z == 2):
+            print(special_days.get(7.2))
+        elif (y == 8 and z == 2):
+            print(special_days.get(8.2))
+        elif (y == 9 and z == 2):
+            print(special_days.get(9.2))
+        elif (y == 10 and z == 2):
+            print(special_days.get(10.2))
+        elif (y == 11 and z == 2):
+            print(special_days.get(11.2))
+        elif (y == 12 and z == 2):
+            print(special_days.get(12.2))
+        elif (y == 13 and z == 2):
+            print(special_days.get(13.2))
+        elif (y == 14 and z == 2):
+            print(special_days.get(14.2))
+        elif (y == 15 and z == 2):
+            print(special_days.get(15.2))
+        elif (y == 16 and z == 2):
+            print(special_days.get(16.2))
+        elif (y == 17 and z == 2):
+            print(special_days.get(17.2))
+        elif (y == 18 and z == 2):
+            print(special_days.get(18.2))
+        elif (y == 19 and z == 2):
+            print(special_days.get(19.2))
+        elif (y == 20 and z == 2):
+            print(special_days.get(20.2))
+        elif (y == 21 and z == 2):
+            print(special_days.get(21.2))
+        elif (y == 22 and z == 2):
+            print(special_days.get(22.2))
+        elif (y == 23 and z == 2):
+            print(special_days.get(23.2))
+        elif (y == 24 and z == 2):
+            print(special_days.get(24.2))
+        elif (y == 25 and z == 2):
+            print(special_days.get(25.2))
+        elif (y == 26 and z == 2):
+            print(special_days.get(26.2))
+        elif (y == 27 and z == 2):
+            print(special_days.get(27.2))
+        elif (y == 28 and z == 2):
+            print(special_days.get(28.2))
+        elif (y == 29 and z == 2):
+            print(special_days.get(29.2))
+        elif (y == 30 and z == 2):
+            print(special_days.get(30.2))
+        elif (y == 31 and z == 2):
+            print(special_days.get(31.2))
+        elif (y == 1 and z == 3):
+            print(special_days.get(1.3))
+        elif (y == 2 and z == 3):
+            print(special_days.get(2.3))
+        elif (y == 3 and z == 3):
+            print(special_days.get(3.3))
+        elif (y == 4 and z == 3):
+            print(special_days.get(4.3))
+        elif (y == 5 and z == 3):
+            print(special_days.get(5.3))
+        elif (y == 6 and z == 3):
+            print(special_days.get(6.3))
+        elif (y == 7 and z == 3):
+            print(special_days.get(7.3))
+        elif (y == 8 and z == 3):
+            print(special_days.get(8.3))
+        elif (y == 9 and z == 3):
+            print(special_days.get(9.3))
+        elif (y == 10 and z == 3):
+            print(special_days.get(10.3))
+        elif (y == 11 and z == 3):
+            print(special_days.get(11.3))
+        elif (y == 12 and z == 3):
+            print(special_days.get(12.3))
+        elif (y == 13 and z == 3):
+            print(special_days.get(13.3))
+        elif (y == 14 and z == 3):
+            print(special_days.get(14.3))
+        elif (y == 15 and z == 3):
+            print(special_days.get(15.3))
+        elif (y == 16 and z == 3):
+            print(special_days.get(16.3))
+        elif (y == 17 and z == 3):
+            print(special_days.get(17.3))
+        elif (y == 18 and z == 3):
+            print(special_days.get(18.3))
+        elif (y == 19 and z == 3):
+            print(special_days.get(19.3))
+        elif (y == 20 and z == 3):
+            print(special_days.get(20.3))
+        elif (y == 21 and z == 3):
+            print(special_days.get(21.3))
+        elif (y == 22 and z == 3):
+            print(special_days.get(22.3))
+        elif (y == 23 and z == 3):
+            print(special_days.get(23.3))
+        elif (y == 24 and z == 3):
+            print(special_days.get(24.3))
+        elif (y == 25 and z == 3):
+            print(special_days.get(25.3))
+        elif (y == 26 and z == 3):
+            print(special_days.get(26.3))
+        elif (y == 27 and z == 3):
+            print(special_days.get(27.3))
+        elif (y == 28 and z == 3):
+            print(special_days.get(28.3))
+        elif (y == 29 and z == 3):
+            print(special_days.get(29.3))
+        elif (y == 30 and z == 3):
+            print(special_days.get(30.3))
+        elif (y == 31 and z == 3):
+            print(special_days.get(31.3))
+        elif (y == 1 and z == 4):
+            print(special_days.get(1.4))
+        elif (y == 2 and z == 43):
+            print(special_days.get(2.4))
+        elif (y == 3 and z == 4):
+            print(special_days.get(3.4))
+        elif (y == 4 and z == 4):
+            print(special_days.get(4.4))
+        elif (y == 5 and z == 4):
+            print(special_days.get(5.4))
+        elif (y == 6 and z == 4):
+            print(special_days.get(6.4))
+        elif (y == 7 and z == 4):
+            print(special_days.get(7.4))
+        elif (y == 8 and z == 4):
+            print(special_days.get(8.4))
+        elif (y == 9 and z == 4):
+            print(special_days.get(9.4))
+        elif (y == 10 and z == 4):
+            print(special_days.get(10.4))
+        elif (y == 11 and z == 4):
+            print(special_days.get(11.4))
+        elif (y == 12 and z == 4):
+            print(special_days.get(12.4))
+        elif (y == 13 and z == 4):
+            print(special_days.get(13.4))
+        elif (y == 14 and z == 4):
+            print(special_days.get(14.4))
+        elif (y == 15 and z == 4):
+            print(special_days.get(15.4))
+        elif (y == 16 and z == 4):
+            print(special_days.get(16.4))
+        elif (y == 17 and z == 4):
+            print(special_days.get(17.4))
+        elif (y == 18 and z == 4):
+            print(special_days.get(18.4))
+        elif (y == 19 and z == 4):
+            print(special_days.get(19.4))
+        elif (y == 20 and z == 4):
+            print(special_days.get(20.4))
+        elif (y == 21 and z == 4):
+            print(special_days.get(21.4))
+        elif (y == 22 and z == 4):
+            print(special_days.get(22.4))
+        elif (y == 23 and z == 4):
+            print(special_days.get(23.4))
+        elif (y == 24 and z == 4):
+            print(special_days.get(24.4))
+        elif (y == 25 and z == 4):
+            print(special_days.get(25.4))
+        elif (y == 26 and z == 4):
+            print(special_days.get(26.4))
+        elif (y == 27 and z == 4):
+            print(special_days.get(27.4))
+        elif (y == 28 and z == 4):
+            print(special_days.get(28.4))
+        elif (y == 29 and z == 4):
+            print(special_days.get(29.4))
+        elif (y == 30 and z == 4):
+            print(special_days.get(30.4))
+        elif (y == 31 and z == 4):
+            print(special_days.get(31.4))
+        elif (y == 1 and z == 5):
+            print(special_days.get(1.5))
+        elif (y == 2 and z == 5):
+            print(special_days.get(2.5))
+        elif (y == 3 and z == 5):
+            print(special_days.get(3.5))
+        elif (y == 4 and z == 5):
+            print(special_days.get(4.5))
+        elif (y == 5 and z == 5):
+            print(special_days.get(5.5))
+        elif (y == 6 and z == 5):
+            print(special_days.get(6.5))
+        elif (y == 7 and z == 5):
+            print(special_days.get(7.5))
+        elif (y == 8 and z == 5):
+            print(special_days.get(8.5))
+        elif (y == 9 and z == 5):
+            print(special_days.get(9.5))
+        elif (y == 10 and z == 5):
+            print(special_days.get(10.5))
+        elif (y == 11 and z == 5):
+            print(special_days.get(11.5))
+        elif (y == 12 and z == 5):
+            print(special_days.get(12.5))
+        elif (y == 13 and z == 5):
+            print(special_days.get(13.5))
+        elif (y == 14 and z == 5):
+            print(special_days.get(14.5))
+        elif (y == 15 and z == 5):
+            print(special_days.get(15.5))
+        elif (y == 16 and z == 5):
+            print(special_days.get(16.5))
+        elif (y == 17 and z == 5):
+            print(special_days.get(17.5))
+        elif (y == 18 and z == 5):
+            print(special_days.get(18.5))
+        elif (y == 19 and z == 5):
+            print(special_days.get(19.5))
+        elif (y == 20 and z == 5):
+            print(special_days.get(20.5))
+        elif (y == 21 and z == 5):
+            print(special_days.get(21.5))
+        elif (y == 22 and z == 5):
+            print(special_days.get(22.5))
+        elif (y == 23 and z == 5):
+            print(special_days.get(23.5))
+        elif (y == 24 and z == 5):
+            print(special_days.get(24.5))
+        elif (y == 25 and z == 5):
+            print(special_days.get(25.5))
+        elif (y == 26 and z == 5):
+            print(special_days.get(26.5))
+        elif (y == 27 and z == 5):
+            print(special_days.get(27.5))
+        elif (y == 28 and z == 5):
+            print(special_days.get(28.5))
+        elif (y == 29 and z == 5):
+            print(special_days.get(29.5))
+        elif (y == 30 and z == 5):
+            print(special_days.get(30.5))
+        elif (y == 31 and z == 5):
+            print(special_days.get(31.5))
+        elif (y == 1 and z == 6):
+            print(special_days.get(1.6))
+        elif (y == 2 and z == 6):
+            print(special_days.get(2.6))
+        elif (y == 3 and z == 6):
+            print(special_days.get(3.6))
+        elif (y == 4 and z == 6):
+            print(special_days.get(4.6))
+        elif (y == 5 and z == 6):
+            print(special_days.get(5.6))
+        elif (y == 6 and z == 6):
+            print(special_days.get(6.6))
+        elif (y == 7 and z == 6):
+            print(special_days.get(7.6))
+        elif (y == 8 and z == 6):
+            print(special_days.get(8.6))
+        elif (y == 9 and z == 6):
+            print(special_days.get(9.6))
+        elif (y == 10 and z == 6):
+            print(special_days.get(10.6))
+        elif (y == 11 and z == 6):
+            print(special_days.get(11.6))
+        elif (y == 12 and z == 6):
+            print(special_days.get(12.6))
+        elif (y == 13 and z == 6):
+            print(special_days.get(13.6))
+        elif (y == 14 and z == 6):
+            print(special_days.get(14.6))
+        elif (y == 15 and z == 6):
+            print(special_days.get(15.6))
+        elif (y == 16 and z == 6):
+            print(special_days.get(16.6))
+        elif (y == 17 and z == 6):
+            print(special_days.get(17.6))
+        elif (y == 18 and z == 6):
+            print(special_days.get(18.6))
+        elif (y == 19 and z == 6):
+            print(special_days.get(19.6))
+        elif (y == 20 and z == 6):
+            print(special_days.get(20.6))
+        elif (y == 21 and z == 6):
+            print(special_days.get(21.6))
+        elif (y == 22 and z == 6):
+            print(special_days.get(22.6))
+        elif (y == 23 and z == 6):
+            print(special_days.get(23.6))
+        elif (y == 24 and z == 6):
+            print(special_days.get(24.6))
+        elif (y == 25 and z == 6):
+            print(special_days.get(25.6))
+        elif (y == 26 and z == 6):
+            print(special_days.get(26.6))
+        elif (y == 27 and z == 6):
+            print(special_days.get(27.6))
+        elif (y == 28 and z == 6):
+            print(special_days.get(28.6))
+        elif (y == 29 and z == 6):
+            print(special_days.get(29.6))
+        elif (y == 30 and z == 6):
+            print(special_days.get(30.6))
+        elif (y == 31 and z == 6):
+            print(special_days.get(31.6))
+        elif (y == 1 and z == 7):
+            print(special_days.get(1.7))
+        elif (y == 2 and z == 7):
+            print(special_days.get(2.7))
+        elif (y == 3 and z == 7):
+            print(special_days.get(3.7))
+        elif (y == 4 and z == 7):
+            print(special_days.get(4.7))
+        elif (y == 5 and z == 7):
+            print(special_days.get(5.7))
+        elif (y == 6 and z == 7):
+            print(special_days.get(6.7))
+        elif (y == 7 and z == 7):
+            print(special_days.get(7.7))
+        elif (y == 8 and z == 7):
+            print(special_days.get(8.7))
+        elif (y == 9 and z == 7):
+            print(special_days.get(9.7))
+        elif (y == 10 and z == 7):
+            print(special_days.get(10.7))
+        elif (y == 11 and z == 7):
+            print(special_days.get(11.7))
+        elif (y == 12 and z == 7):
+            print(special_days.get(12.7))
+        elif (y == 13 and z == 7):
+            print(special_days.get(13.7))
+        elif (y == 14 and z == 7):
+            print(special_days.get(14.7))
+        elif (y == 15 and z == 7):
+            print(special_days.get(15.7))
+        elif (y == 16 and z == 7):
+            print(special_days.get(16.7))
+        elif (y == 17 and z == 7):
+            print(special_days.get(17.7))
+        elif (y == 18 and z == 7):
+            print(special_days.get(18.7))
+        elif (y == 19 and z == 7):
+            print(special_days.get(19.7))
+        elif (y == 20 and z == 7):
+            print(special_days.get(20.7))
+        elif (y == 21 and z == 7):
+            print(special_days.get(21.7))
+        elif (y == 22 and z == 7):
+            print(special_days.get(22.7))
+        elif (y == 23 and z == 7):
+            print(special_days.get(23.7))
+        elif (y == 24 and z == 7):
+            print(special_days.get(24.7))
+        elif (y == 25 and z == 7):
+            print(special_days.get(25.7))
+        elif (y == 26 and z == 7):
+            print(special_days.get(26.7))
+        elif (y == 27 and z == 7):
+            print(special_days.get(27.7))
+        elif (y == 28 and z == 7):
+            print(special_days.get(28.7))
+        elif (y == 29 and z == 7):
+            print(special_days.get(29.7))
+        elif (y == 30 and z == 7):
+            print(special_days.get(30.7))
+        elif (y == 31 and z == 7):
+            print(special_days.get(31.7))
+        elif (y == 1 and z == 8):
+            print(special_days.get(1.8))
+        elif (y == 2 and z == 8):
+            print(special_days.get(2.8))
+        elif (y == 3 and z == 8):
+            print(special_days.get(3.8))
+        elif (y == 4 and z == 8):
+            print(special_days.get(4.8))
+        elif (y == 5 and z == 8):
+            print(special_days.get(5.8))
+        elif (y == 6 and z == 8):
+            print(special_days.get(6.8))
+        elif (y == 7 and z == 8):
+            print(special_days.get(7.8))
+        elif (y == 8 and z == 8):
+            print(special_days.get(8.8))
+        elif (y == 9 and z == 8):
+            print(special_days.get(9.8))
+        elif (y == 10 and z == 8):
+            print(special_days.get(10.8))
+        elif (y == 11 and z == 8):
+            print(special_days.get(11.8))
+        elif (y == 12 and z == 8):
+            print(special_days.get(12.8))
+        elif (y == 13 and z == 8):
+            print(special_days.get(13.8))
+        elif (y == 14 and z == 8):
+            print(special_days.get(14.8))
+        elif (y == 15 and z == 8):
+            print(special_days.get(15.8))
+        elif (y == 16 and z == 8):
+            print(special_days.get(16.8))
+        elif (y == 17 and z == 8):
+            print(special_days.get(17.8))
+        elif (y == 18 and z == 8):
+            print(special_days.get(18.8))
+        elif (y == 19 and z == 8):
+            print(special_days.get(19.8))
+        elif (y == 20 and z == 8):
+            print(special_days.get(20.8))
+        elif (y == 21 and z == 8):
+            print(special_days.get(21.8))
+        elif (y == 22 and z == 8):
+            print(special_days.get(22.8))
+        elif (y == 23 and z == 8):
+            print(special_days.get(23.8))
+        elif (y == 24 and z == 8):
+            print(special_days.get(24.8))
+        elif (y == 25 and z == 8):
+            print(special_days.get(25.8))
+        elif (y == 26 and z == 8):
+            print(special_days.get(26.8))
+        elif (y == 27 and z == 8):
+            print(special_days.get(27.8))
+        elif (y == 28 and z == 8):
+            print(special_days.get(28.8))
+        elif (y == 29 and z == 8):
+            print(special_days.get(29.8))
+        elif (y == 30 and z == 8):
+            print(special_days.get(30.8))
+        elif (y == 31 and z == 8):
+            print(special_days.get(31.8))
+        elif (y == 1 and z == 9):
+            print(special_days.get(1.9))
+        elif (y == 2 and z == 9):
+            print(special_days.get(2.9))
+        elif (y == 3 and z == 9):
+            print(special_days.get(3.9))
+        elif (y == 4 and z == 9):
+            print(special_days.get(4.9))
+        elif (y == 5 and z == 9):
+            print(special_days.get(5.9))
+        elif (y == 6 and z == 9):
+            print(special_days.get(6.9))
+        elif (y == 7 and z == 9):
+            print(special_days.get(7.9))
+        elif (y == 8 and z == 9):
+            print(special_days.get(8.9))
+        elif (y == 9 and z == 9):
+            print(special_days.get(9.9))
+        elif (y == 10 and z == 9):
+            print(special_days.get(10.9))
+        elif (y == 11 and z == 9):
+            print(special_days.get(11.9))
+        elif (y == 12 and z == 9):
+            print(special_days.get(12.9))
+        elif (y == 13 and z == 9):
+            print(special_days.get(13.9))
+        elif (y == 14 and z == 9):
+            print(special_days.get(14.9))
+        elif (y == 15 and z == 9):
+            print(special_days.get(15.9))
+        elif (y == 16 and z == 9):
+            print(special_days.get(16.9))
+        elif (y == 17 and z == 9):
+            print(special_days.get(17.9))
+        elif (y == 18 and z == 9):
+            print(special_days.get(18.9))
+        elif (y == 19 and z == 9):
+            print(special_days.get(19.9))
+        elif (y == 20 and z == 9):
+            print(special_days.get(20.9))
+        elif (y == 21 and z == 9):
+            print(special_days.get(21.9))
+        elif (y == 22 and z == 9):
+            print(special_days.get(22.9))
+        elif (y == 23 and z == 9):
+            print(special_days.get(23.9))
+        elif (y == 24 and z == 9):
+            print(special_days.get(24.9))
+        elif (y == 25 and z == 9):
+            print(special_days.get(25.9))
+        elif (y == 26 and z == 9):
+            print(special_days.get(26.9))
+        elif (y == 27 and z == 9):
+            print(special_days.get(27.9))
+        elif (y == 28 and z == 9):
+            print(special_days.get(28.9))
+        elif (y == 29 and z == 9):
+            print(special_days.get(29.9))
+        elif (y == 30 and z == 9):
+            print(special_days.get(30.9))
+        elif (y == 31 and z == 9):
+            print(special_days.get(31.9))
+        elif (y == 1 and z == 10):
+            print(special_days.get(1.101))
+        elif (y == 2 and z == 10):
+            print(special_days.get(2.101))
+        elif (y == 3 and z == 10):
+            print(special_days.get(3.101))
+        elif (y == 4 and z == 10):
+            print(special_days.get(4.101))
+        elif (y == 5 and z == 10):
+            print(special_days.get(5.101))
+        elif (y == 6 and z == 10):
+            print(special_days.get(6.101))
+        elif (y == 7 and z == 10):
+            print(special_days.get(7.101))
+        elif (y == 8 and z == 10):
+            print(special_days.get(8.101))
+        elif (y == 9 and z == 10):
+            print(special_days.get(9.101))
+        elif (y == 10 and z == 10):
+            print(special_days.get(10.101))
+        elif (y == 11 and z == 10):
+            print(special_days.get(11.101))
+        elif (y == 12 and z == 10):
+            print(special_days.get(12.101))
+        elif (y == 13 and z == 10):
+            print(special_days.get(13.101))
+        elif (y == 14 and z == 10):
+            print(special_days.get(14.101))
+        elif (y == 15 and z == 10):
+            print(special_days.get(15.101))
+        elif (y == 16 and z == 10):
+            print(special_days.get(16.101))
+        elif (y == 17 and z == 10):
+            print(special_days.get(17.101))
+        elif (y == 18 and z == 10):
+            print(special_days.get(18.101))
+        elif (y == 19 and z == 10):
+            print(special_days.get(19.101))
+        elif (y == 20 and z == 10):
+            print(special_days.get(20.101))
+        elif (y == 21 and z == 10):
+            print(special_days.get(21.101))
+        elif (y == 22 and z == 10):
+            print(special_days.get(22.101))
+        elif (y == 23 and z == 10):
+            print(special_days.get(23.101))
+        elif (y == 24 and z == 10):
+            print(special_days.get(24.101))
+        elif (y == 25 and z == 10):
+            print(special_days.get(25.101))
+        elif (y == 26 and z == 10):
+            print(special_days.get(26.101))
+        elif (y == 27 and z == 10):
+            print(special_days.get(27.101))
+        elif (y == 28 and z == 10):
+            print(special_days.get(28.101))
+        elif (y == 29 and z == 10):
+            print(special_days.get(29.101))
+        elif (y == 30 and z == 10):
+            print(special_days.get(30.101))
+        elif (y == 31 and z == 10):
+            print(special_days.get(31.101))
+        elif (y == 1 and z == 11):
+            print(special_days.get(1.11))
+        elif (y == 2 and z == 11):
+            print(special_days.get(2.11))
+        elif (y == 3 and z == 11):
+            print(special_days.get(3.11))
+        elif (y == 4 and z == 11):
+            print(special_days.get(4.11))
+        elif (y == 5 and z == 11):
+            print(special_days.get(5.11))
+        elif (y == 6 and z == 11):
+            print(special_days.get(6.11))
+        elif (y == 7 and z == 11):
+            print(special_days.get(7.11))
+        elif (y == 8 and z == 11):
+            print(special_days.get(8.11))
+        elif (y == 9 and z == 11):
+            print(special_days.get(9.11))
+        elif (y == 10 and z == 11):
+            print(special_days.get(10.11))
+        elif (y == 11 and z == 11):
+            print(special_days.get(11.11))
+        elif (y == 12 and z == 11):
+            print(special_days.get(12.11))
+        elif (y == 13 and z == 11):
+            print(special_days.get(13.11))
+        elif (y == 14 and z == 11):
+            print(special_days.get(14.11))
+        elif (y == 15 and z == 11):
+            print(special_days.get(15.11))
+        elif (y == 16 and z == 11):
+            print(special_days.get(16.11))
+        elif (y == 17 and z == 11):
+            print(special_days.get(17.11))
+        elif (y == 18 and z == 11):
+            print(special_days.get(18.11))
+        elif (y == 19 and z == 11):
+            print(special_days.get(19.11))
+        elif (y == 20 and z == 11):
+            print(special_days.get(20.11))
+        elif (y == 21 and z == 11):
+            print(special_days.get(21.11))
+        elif (y == 22 and z == 11):
+            print(special_days.get(22.11))
+        elif (y == 23 and z == 11):
+            print(special_days.get(23.11))
+        elif (y == 24 and z == 11):
+            print(special_days.get(24.11))
+        elif (y == 25 and z == 11):
+            print(special_days.get(25.11))
+        elif (y == 26 and z == 11):
+            print(special_days.get(26.11))
+        elif (y == 27 and z == 11):
+            print(special_days.get(27.11))
+        elif (y == 28 and z == 11):
+            print(special_days.get(28.11))
+        elif (y == 29 and z == 11):
+            print(special_days.get(29.11))
+        elif (y == 30 and z == 11):
+            print(special_days.get(30.11))
+        elif (y == 31 and z == 11):
+            print(special_days.get(31.11))
+        elif (y == 1 and z == 12):
+            print(special_days.get(1.12))
+        elif (y == 2 and z == 12):
+            print(special_days.get(2.12))
+        elif (y == 3 and z == 12):
+            print(special_days.get(3.12))
+        elif (y == 4 and z == 12):
+            print(special_days.get(4.12))
+        elif (y == 5 and z == 12):
+            print(special_days.get(5.12))
+        elif (y == 6 and z == 12):
+            print(special_days.get(6.12))
+        elif (y == 7 and z == 12):
+            print(special_days.get(7.12))
+        elif (y == 8 and z == 12):
+            print(special_days.get(8.12))
+        elif (y == 9 and z == 12):
+            print(special_days.get(9.12))
+        elif (y == 10 and z == 12):
+            print(special_days.get(10.12))
+        elif (y == 11 and z == 12):
+            print(special_days.get(11.12))
+        elif (y == 12 and z == 12):
+            print(special_days.get(12.12))
+        elif (y == 13 and z == 12):
+            print(special_days.get(13.12))
+        elif (y == 14 and z == 12):
+            print(special_days.get(14.12))
+        elif (y == 15 and z == 12):
+            print(special_days.get(15.12))
+        elif (y == 16 and z == 12):
+            print(special_days.get(16.12))
+        elif (y == 17 and z == 12):
+            print(special_days.get(17.12))
+        elif (y == 18 and z == 12):
+            print(special_days.get(18.12))
+        elif (y == 19 and z == 12):
+            print(special_days.get(19.12))
+        elif (y == 20 and z == 12):
+            print(special_days.get(20.12))
+        elif (y == 21 and z == 12):
+            print(special_days.get(21.12))
+        elif (y == 22 and z == 12):
+            print(special_days.get(22.12))
+        elif (y == 23 and z == 12):
+            print(special_days.get(23.12))
+        elif (y == 24 and z == 12):
+            print(special_days.get(24.12))
+        elif (y == 25 and z == 12):
+            print(special_days.get(25.12))
+        elif (y == 26 and z == 12):
+            print(special_days.get(26.12))
+        elif (y == 27 and z == 12):
+            print(special_days.get(27.12))
+        elif (y == 28 and z == 12):
+            print(special_days.get(28.12))
+        elif (y == 29 and z == 12):
+            print(special_days.get(29.12))
+        elif (y == 30 and z == 12):
+            print(special_days.get(30.12))
+        elif (y == 31 and z == 12):
+            print(special_days.get(31.12))
+
+        y=y+1
+
+    z=z+1
+print("Thanks for using....!!!!!!!!!  :)")
