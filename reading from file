@@ -1,0 +1,9 @@
+bnmt=open("importantfile.txt","r")
+if bnmt.readable():
+    #lines using for loop
+    for content in bnmt.readlines():
+        print(content)
+        print("-----")
+else:
+    print("You are not allowed to read")
+bnmt.close()
