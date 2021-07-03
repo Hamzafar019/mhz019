@@ -1,0 +1,21 @@
+import cv2
+from random import randrange
+
+trained_data=cv2.CascadeClassifier('face.xml')
+# img2 = cv2.imread('NaimaZafar.png')
+webcame=cv2.VideoCapture('hi.mp4')
+
+while True:
+    successful_frmae_read, frame =webcame.read()
+    img3=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    face_coordinates = trained_data.detectMultiScale(img3)
+
+    for (x, y, w, h) in face_coordinates:
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (randrange(256), randrange(256), randrange(256)), 2)
+    cv2.imshow('Clever Programmer Face Detector', frame)
+    key=cv2.waitKey(1)
+
+    if key==81 or key==113:
+        break;
+
+webcame.release()
