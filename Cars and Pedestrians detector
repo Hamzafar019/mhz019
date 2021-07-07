@@ -1,0 +1,52 @@
+import cv2
+# to get video
+video =cv2.VideoCapture('traffic_video.mp4')
+
+# to get trained data i.e. downloaded from github
+file='cardetector.xml'
+file2='pedestrian_detect.xml'
+
+
+car_tracker=cv2.CascadeClassifier(file)
+
+ped_tracker=cv2.CascadeClassifier(file2)
+
+while True:
+    # to read video frame by frame
+    (read_seccessful, frame) = video.read()
+
+    # if video is readable chane into black and white or gray so that its easy to detect
+    if read_seccessful:
+        grayframe=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    else:
+        break
+    # detect all the coordinates for cars and pedestrians
+    car=car_tracker.detectMultiScale(grayframe)
+    ped=ped_tracker.detectMultiScale(grayframe)
+    
+    #  for loop to detect all cars and pedestrains in the frame
+    for(x,y,w,h) in car:
+        cv2.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
+
+    for(x,y,w,z) in ped:
+        cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,255),2)
+
+    # to show frame
+    cv2.imshow('Clever Programmer Car Detector',frame)
+    
+    # it will wait for 1 millisecond I guess  and then it will move forward or run another frame
+    key = cv2.waitKey(1)
+  
+  
+    # 81 and 113 are for q and Q   if anyone of them will be pressed the loop will break and video will end
+    if key==81 or key==113:
+        break
+    
+#  to release memory
+
+video.release()
+
+
+
+#  just to check that program is running without any problem
+print("Code Completed")
