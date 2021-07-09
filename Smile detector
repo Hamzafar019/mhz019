@@ -1,0 +1,68 @@
+import cv2
+
+# pre-trained data to detect face
+face_detect=cv2.CascadeClassifier('face.xml')
+
+# pre-trained data to detect smile
+smile_detect=cv2.CascadeClassifier('smile.xml')
+
+# to take any video in the path
+video=cv2.VideoCapture('hi.mp4')
+
+
+#  loop till video do not end or exit
+while True:
+
+    # success is to get boolean value  and frame is to get 1 frame of video
+    success,frame=video.read()
+
+    # if any problem in getting frame the video will end
+    if not success:
+        break
+
+    # to convert frame to gray color because its easy to work on gray scale
+    gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+
+    #  to get coordinates of face
+    face=face_detect.detectMultiScale(gray)
+
+    # for loop to detect all faces in one frame
+    for (x,y,w,h) in face:
+        cv2.rectangle(frame,(x,y),(x+w,y+h),(200,0,0),2)
+
+        # to get frame which have face only i.e. croped from above frame
+        frame2=frame[y:y+h ,x:x+w]
+
+        # 
+        gray = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
+
+        #  to detect smile  scalefactor is about blurness and minNeighbours is to consider smile when there will be smile detected of quantity mentioned
+        smile = smile_detect.detectMultiScale(gray, scaleFactor=1.7, minNeighbors=20)
+
+        #  for loop to detect all smile in a face detected     nested loop helps to detect smies only in faces otherwise it can detect other things similar to smile
+        for (x_, y_, w_, h_) in smile:
+            cv2.rectangle(frame2, (x_, y_), (x_ + w_, y_ + h_), (200, 0, 0), 2)
+
+        # to write smile if the person will be smiling
+        if len(smile)>0:
+            cv2.putText(frame, 'smiling', (x,y+h+40), fontScale=3, fontFace=cv2.FONT_HERSHEY_PLAIN,color=(255,0,0))
+
+
+
+    # to show image
+    cv2.imshow('Why so serious?!!',frame)
+
+    # it will wait for 1 millisecond and then it will move forward or run another frame
+    key=cv2.waitKey(1)
+
+    # 81 and 113 are for q and Q   if anyone of them will be pressed the loop will break and video will end
+    if key == 81 or key == 113:
+        break
+
+#  to release memory
+video.release()
+cv2.destroyAllWindows
+
+#  just to check that program is running without any problem
+print("Code completed")
