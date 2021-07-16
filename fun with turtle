@@ -1,0 +1,27 @@
+import turtle
+from turtle import *
+
+my_turtle = turtle.Turtle()
+
+def square():
+    my_turtle.forward(50)
+    my_turtle.left(90)
+    my_turtle.forward(50)
+    my_turtle.left(90)
+    my_turtle.forward(50)
+    my_turtle.left(90)
+    my_turtle.forward(50)
+
+
+for i in range(73):
+    square()
+    my_turtle.left(85)
+
+for i in range(100):
+    square()
+    my_turtle.forward(i+i+i+i+i)
+
+
+
+
+done()
