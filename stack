@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+class Stack{
+	private:
+	int top;
+	int *arr;
+	int n=3;
+	public:
+	Stack(){
+		top=-1;
+		arr= new int[n];
+		
+	}
+	
+	void push(int x){
+		if(top==n-1){
+			cout<<"Stack Overflow!!\n";
+			return;
+		}
+		top++;
+		arr[top]=x;
+	}
+	void pop(){
+		if(top==-1){
+			cout<<"Stack underflow!!\n";
+			return;
+		}
+		top--;
+	}
+	int Top(){
+		if(top==-1){
+			cout<<"No element in stack!!\n";
+			return -1;
+		}
+		
+		return arr[top];
+		
+	}
+	
+	bool isempty(){
+		if(top==-1){
+			return true;
+		}
+		else{
+			return false;
+		}
+		
+	}
+	
+	
+};
+
+int main(){
+	Stack stack1;
+	stack1.push(3);
+	stack1.push(5);
+	stack1.push(4);
+	stack1.push(1);
+	cout<<stack1.Top()<<endl;
+	stack1.pop();
+	cout<<stack1.isempty()<<endl;
+	stack1.pop();
+	stack1.pop();
+	stack1.pop();
+	cout<<stack1.Top()<<endl;
+	cout<<stack1.isempty()<<endl;
+}
