@@ -1,0 +1,82 @@
+#include<iostream>
+using namespace std;
+class Node{
+	public:
+	int data;
+	Node* next;
+	
+	Node(int value){
+		data=value;
+		next=NULL;
+	}
+	
+};
+
+class QueueLinkedList{
+	public:
+	
+	Node *front, *back;
+	QueueLinkedList(){
+		front=NULL;
+		back=NULL;
+	}
+	
+	void addnode(int value){
+		Node* new_node= new Node(value);
+		if(front==NULL){
+			front=back=new_node;
+			return;
+		}
+		back->next=new_node;
+		back=back->next;
+	}
+	
+	void pop(){
+		if(front==NULL){
+			cout<<"No data to be deleted.."<<endl;
+			return;
+		}
+		Node* temp=front;
+		front=front->next;
+		delete temp;
+		temp=NULL;
+	}
+	
+	int peek(){
+		if(front==NULL){
+			cout<<"No data in queue..";
+			return -1;
+		}
+		return front->data;
+	}
+	
+	bool empty(){
+		if(front==NULL){
+			return true;
+		}
+		return false;
+	}
+	
+};
+
+int main(){
+	QueueLinkedList list;
+	list.addnode(2);
+	list.addnode(3);
+	list.addnode(4);
+	cout<<list.peek()<<endl;
+	cout<<list.empty()<<endl;
+	list.pop();
+	cout<<list.peek()<<endl;
+	cout<<list.empty()<<endl;
+	list.pop();
+	cout<<list.peek()<<endl;
+	cout<<list.empty()<<endl;
+	list.pop();
+	cout<<list.peek()<<endl;
+	cout<<list.empty()<<endl;
+	list.pop();
+	cout<<list.peek()<<endl;
+	cout<<list.empty()<<endl;
+	list.pop();
+}	
