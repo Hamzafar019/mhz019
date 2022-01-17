@@ -1,0 +1,412 @@
+//#include<graphics.h>
+#include <iostream>
+#include <fstream>
+#include<string>
+#include<sstream>
+#include<string.h>
+#include<stdlib.h>
+#include<bits/stdc++.h>
+
+using namespace std; 
+int id2;
+class Node{
+public:
+	float value2;		
+	Node *next;	
+	Node(){
+		value2=0.0;
+		next=NULL;
+	}
+	Node(float value){
+		value2=value;
+		next=NULL;
+	}
+};
+
+class Data{
+private:
+	Node* head=NULL;
+	Node* tail=NULL;
+public:
+	void add_data(float a)
+	{
+		Node* new_node= new Node(a);
+		if(head==NULL){
+			head=tail=new_node;
+			return;
+		}
+		tail->next=new_node;
+		tail=tail->next;
+	}
+	
+	Node* Get_Data_Head()
+	{
+		return head;
+	}
+	
+};
+
+class ID{
+	
+	Data Class[5];
+public:
+	void add(string indicator_name, float value){
+		if(indicator_name=="PM10"){
+			Class[0].add_data(value);
+		}
+		else if(indicator_name=="PM2.5"){
+			Class[1].add_data(value);
+		}
+		else if(indicator_name=="Temperature"){
+			Class[2].add_data(value);
+		}
+		else if(indicator_name=="Humidity"){
+			Class[3].add_data(value);
+		}
+		else if(indicator_name=="Pressure"){
+			Class[4].add_data(value);
+		}
+	}
+	
+	Node* getData(){
+		int factor;
+		cin>>factor;
+		factor--;
+		return Class[factor].Get_Data_Head();
+	}
+};
+
+class DSA
+{
+	float *arr;
+	float *y;
+	float min = INT_MAX,max = INT_MIN;
+	int mn,mx;
+	int size;
+	int i,j;
+	float sumX=0, sumX2=0, sumY=0, sumXY=0, a, b;
+	
+	public:
+		DSA()
+		{
+			arr = NULL;
+			i = j = 0;
+			size = 0;	
+		}
+		
+		DSA(int s)
+		{
+			size = s;
+			arr = new float[size];
+			y = new float[size];
+			memset(arr,0,size*sizeof(float));	
+			memset(y,0,size*sizeof(float));
+		}
+		DSA(const DSA& rhs)
+		{
+			this->size = rhs.size;
+			this->y = rhs.y;
+			this->arr = new float[size];
+			memcpy(this->arr, rhs.arr, sizeof(float)*size);
+			this->y = new float[size];
+			memcpy(this->y, rhs.y, sizeof(float)*size);
+		}
+		DSA &operator =(const DSA& rhs)
+		{
+			if(this != &rhs)
+			{
+				this->size = rhs.size;
+				this->y = rhs.y;
+				this->arr = new float[size];
+				memcpy(this->arr, rhs.arr, sizeof(float)*size);
+				this->y = new float[size];
+				memcpy(this->y, rhs.y, sizeof(float)*size);
+			}
+			return(*this);
+		}
+		~DSA()
+		{
+			if(arr != 0)
+			{
+				delete [] arr;
+				delete [] y;
+				y = 0;
+				arr = 0;
+				size = 0;
+			}
+		}
+		void create(int s)
+		{
+			size = s;
+			arr = new float[size];
+			memset(arr,0,size*sizeof(float));	
+			y = new float[size];
+			memset(y,0,size*sizeof(float));
+		}
+		void Insert(float x)
+		{
+			*(arr+i) = x;
+			i++;
+		}
+		void Insert_Y(float y2)
+		{
+			*(y+j) = y2;
+			if(*(y+j) > max)
+			{
+				max = *(y+j);
+				mx = j;
+			}
+			if(*(y+j) < min)
+			{
+				min = *(y+j);
+				mn = j;
+			}
+			j++;
+		}
+		void Min()
+		{
+//			text_animation("\n\nMinimum value is: "<<min<<" at independent value of " << *(arr+mn));
+			cout << "\n\nMinimum value is: "<<min;
+			cout <<" at independent value of " << *(arr+mn) << endl;
+		}
+		void Max()
+		{
+//			text_animation("\n\Maximun value is: "<<max<<" at independent value of " << *(arr+mx));
+			cout << "\n\nMaximum value is: "<<max;
+			cout <<" at independent value of" << *(arr+mx) << endl;
+		}
+		void display()
+		{
+			for(int j = 0; j < size; j++)
+			{
+				cout << *(arr+j);
+			}
+			cout << "\n";
+			for(int j = 0; j < size; j++)
+			{
+				cout << *(y+j);
+			}
+		}
+		
+		void linear_regression(int id)
+		{
+			int n = sizeof(arr);
+			for(i=1; i<=n;i++)
+			 {
+			  sumX = sumX + arr[i];
+			  sumX2 = sumX2 + arr[i]*arr[i];
+			  sumY = sumY + y[i];
+			  sumXY = sumXY + arr[i]*y[i];
+			 }
+			 
+			 b = (n*sumXY-sumX*sumY)/(n*sumX2-sumX*sumX);
+			 a = (sumY - b*sumX)/n;
+			
+			 ofstream ob;
+			 ob.open("regression.txt",ios::app);
+			 ob<<"Linear Regression of ID: "<<id<<" -> y = "<< a <<" + "<< b<<"x"<<endl;
+			 ob.close();
+			
+			 cout<<"Calculated value of a is "<< a << "and b is "<< b << endl;
+			 cout<<"Equation of best fit is: y = "<< a <<" + "<< b<<"x";
+		}
+		void LR_pred()
+		{
+			float x;
+			cout << "\n\nEnter value of x for prediction: " ;
+			cin >> x;
+			float pred = a + b * x;
+			cout << "Value is: " << pred ;
+			Min();
+			Max();
+		}
+		
+		
+};
+
+void text_animation(string a){ // For the animation at the starting of application
+
+	int i;
+	long double j;
+	
+	for(i=0;a[i]!='\0';i++){
+
+		for(j=0;j<10000000;j++);
+			cout<<a[i];
+	}
+}
+
+int main() 
+{
+	system("Color 80");
+	cout <<"\n\n\n\n\n";
+	cout <<"\t\t\t\t____________________________________________________\n\n\n";
+	text_animation("\t\t\t\t\t~~ Air Quality Monitoring From EcoCity ~~\n\n" );
+	cout <<"\t\t\t\t____________________________________________________\n\n";
+	cout << "\n\t\t\t\t\t";
+	system("pause");
+	system ("CLS");
+	text_animation(" Please wait for few seconds, while Data is preparing\n\n");
+
+	ifstream ip("Air_Quality_Monitoring_From_EcoCity.csv");
+	ID s[10];
+	
+	if(!ip.is_open())
+	{
+		cout << "error file open!" << endl;
+	}
+	
+	
+	string id,indicator_code,indicator_name,indicator_dimension,value,datetime,source;
+
+	while(ip.good()) 
+	{
+		getline(ip,id,',');
+		getline(ip,indicator_code,',');
+		getline(ip,indicator_name,',');
+		getline(ip,indicator_dimension,',');
+		getline(ip,value,',');
+		getline(ip,datetime,',');
+		getline(ip,source,'\n');
+		float x = 0;
+		if(value!="value")
+		{
+			stringstream geek(value);	
+    		geek >> x;	
+		}
+		if(id=="337"){
+			s[0].add(indicator_name,x);	
+		}
+		else if(id=="650"){
+			s[1].add(indicator_name,x);
+		}
+		else if(id=="761"){
+			s[2].add(indicator_name,x);
+		}
+		else if(id=="767"){
+			s[3].add(indicator_name,x);
+		}
+		else if(id=="774"){
+			s[4].add(indicator_name,x);
+		}
+		else if(id=="790"){
+			s[5].add(indicator_name,x);
+		}
+		else if(id=="848"){
+			s[6].add(indicator_name,x);
+		}
+		else if(id=="1172"){
+			s[7].add(indicator_name,x);
+		}
+		else if(id=="1183"){
+			s[8].add(indicator_name,x);
+		}
+		else if(id=="1315"){
+			s[9].add(indicator_name,x);
+		}
+				
+		
+//		cout << "id: " << id << " " << endl;
+//		cout << "indicator_code: " << indicator_code << " " << endl;
+//		cout << "indicator_name: " << indicator_name << endl;
+//		cout << "indicator_dimension: " << indicator_dimension << endl;
+//		cout << "value: " << value << endl;
+//		cout << "datetime: " << datetime << endl;
+//		cout << "source: " << source << endl;
+		
+	}
+	
+	
+menu:
+	int idfor;
+	DSA d1;
+	DSA d2;
+	system("cls");
+	cout<<"Given below numbers are areas fetched through ID Stations\n";
+	cout<<"Enter number to get value of areas\n";
+	cout<<"\n1. 337\n2. 650\n3. 761\n4. 767\n5. 774\n6. 790\n7. 848\n8. 1172\n9. 1183\n10. 1315\n\n";
+	cout<<"11. To Display all linear regressions\n\nPress 12 To Exit the Program\n\n";
+	cout<<"Enter Your Choice: ";
+	cin>>idfor;
+	id2=idfor;
+	
+	if(idfor==11)
+	{
+		string txt;
+		cout<<endl;
+		ifstream op("regression.txt");
+		
+		while(getline(op,txt))
+		{
+			cout<<txt<<endl;
+		}
+		
+		ifstream MyReadFile("filename.txt");
+		cout<<endl<<endl;
+		system("pause");
+		system("cls");
+		goto menu;
+	}
+	
+	if(idfor==12)
+	{
+		exit(1);
+		ip.close();
+	}
+	idfor--;
+	
+	Node* temp;
+	Node* temp2;
+	cout<<"\nList of attributes to perform Linear Regression\n1. PM10\n2. PM2.5\n3. Temperature\n4. Humidity\n5. Pressure\n";
+	
+	cout<<"\nEnter number for independent variable x" << endl;
+	temp=s[idfor].getData();
+	cout<<"Now enter number for dependent variable y" << endl;
+	temp2=s[idfor].getData();
+	
+	Node* x = temp;
+	int count1 = 0;
+	while(temp!=NULL){
+		temp=temp->next;
+		count1++;
+	}
+	
+	Node* y = temp2;
+	int count2 = 0;
+	while(temp2!=NULL){
+		temp2=temp2->next;
+		count2++;
+	}
+	
+	int count=0;
+	if(count1<count2)
+	{
+		count=count1;
+	}
+	else
+	{
+		count=count2;
+	}
+	cout << "\n";
+	d1.create(count);
+	int limit=0;
+	initwindow(500,500);
+	while(limit!=count)
+	{
+		d1.Insert(x->value2);
+		d1.Insert_Y(y->value2);
+		line(x->value2*3,y->value2*3,(x->value2*3)+.1,(y->value2*3)+.1);
+		x = x->next;
+		y = y->next;
+		limit++;
+	}
+	getch();
+	
+	d1.linear_regression(id2);
+	d1.LR_pred();
+	cout<<"\n";
+	system("pause");
+	goto menu;
+}
+
+
