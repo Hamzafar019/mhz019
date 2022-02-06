@@ -1,0 +1,40 @@
+words2={}
+for i in range(0,3):
+    line1=input("Enter line: ")
+#     line1="My name is Muhammad Hamza Zafar"
+    
+    split=line1.split()
+    words=[]
+
+    counter=0
+    for i in split:
+        counter+=1
+        words.append(i)
+        if(counter==2):
+#             print(words)
+            flag=0
+            for key,value in words2.items():
+                if(key==str(words)):
+                    value2=value+1
+                    words2[key]=value2
+                
+                    flag+=1
+            if(flag==0):
+                words2.update({str(words):1})
+                flag=0
+            words.pop(0)
+            counter-=1
+count=0  
+word2="No suggestion"
+word=input("Enter word: ")
+for key,value in words2.items():
+    s=key.split()
+    s[0]=s[0][2:-2]
+    if(word==s[0]):
+        if(value>count):
+            count=value
+            word2=s[1][1:-2]
+#     print(key+":"+str(value))
+    
+    
+print("Suggestion: "+word2)
